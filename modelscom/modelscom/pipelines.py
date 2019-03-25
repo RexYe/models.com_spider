@@ -7,6 +7,8 @@
 
 import urllib.request
 import os
+from Modelscom.settings import IMAGES_STORES
+
 
 class ModelscomPipeline(object):
     def process_item(self, item, spider):

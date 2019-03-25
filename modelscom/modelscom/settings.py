@@ -14,6 +14,8 @@ BOT_NAME = 'modelscom'
 SPIDER_MODULES = ['modelscom.spiders']
 NEWSPIDER_MODULE = 'modelscom.spiders'
 
+IMAGES_STORE = 'D://xu_pic'
+
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'modelscom (+http://www.yourdomain.com)'
