@@ -13,7 +13,10 @@ class ModelscomItem(scrapy.Item):
     # name = scrapy.Field()
     title = scrapy.Field()
     image_urls = scrapy.Field()
-    tags = scrapy.Field()
-    src = scrapy.Field()
-    alt = scrapy.Field()
+    # 杂志名
+    magazine = scrapy.Field()
+    # 发布日期
+    published = scrapy.Field()
+    # 摄影师
+    photographer = scrapy.Field()
     pass
